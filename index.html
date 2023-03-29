@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, intital-scale=1.0">
   <title>Blog website</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7990059746329754"
-     crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -65,19 +64,6 @@
     </div>
   </section>
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7990059746329754"
-     crossorigin="anonymous"></script>
-<!-- coffee -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7990059746329754"
-     data-ad-slot="3104622946"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  
   <!--Latest Blog Post-->
   <section class="post" id="post">
     <div class="title">
@@ -271,24 +257,24 @@
         with any
         questions. </p>
     </div>
-    <div action="https://formspree.io/f/meqwlylw" method="POST" class="contactForm" >
+    <form class="contactForm" action="https://formspree.io/f/meqwlylw" method="POST">
       <div class="row">
-        <input type="text" name="" placeholder="First Name" required>
-        <input type="text" name="" placeholder="Last Name">
+        <input type="text" name="FirstName" placeholder="First Name">
+        <input type="text" name="LastName" placeholder="Last Name">
       </div>
 
       <div class="row">
-        <input type="text" name="" placeholder="Email Address" required>
-        <input type="text" name="" placeholder="Phone Number">
+        <input type="email" name="email" placeholder="Email Address">
+        <input type="tel" name="Phone Number" placeholder="Phone Number">
       </div>
 
       <div class="row2">
-        <textarea placeholder="Message"></textarea>
+        <textarea placeholder="message"></textarea>
       </div>
       <div class="row2">
-        <input type="submit" value="Send" class="btn">
+        <button class="btn" type="submit">Send</button>
       </div>
-    </div>
+    </form>
   </section>
 
   <!--Footer-->
